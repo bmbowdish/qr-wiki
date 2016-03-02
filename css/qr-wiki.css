@@ -1,0 +1,32 @@
+/* Style */
+
+body{
+    background:#FAFAFA;
+}
+.navbar-brand .logo, .profile-picture {
+    width: 24px;
+    height: 23px;
+    position: relative;
+    top: -2px;
+    display: inline;
+    
+}
+.logo {
+    width: 48px;
+    height: 46px;
+    margin-right:5px;
+}
+
+.content{
+	margin-top:70px;
+}
+
+.right{
+	margin-left:15px;
+}
+
+.qr-input{
+	top:70px;
+	width:90%;
+	max-width:300px;
+}
