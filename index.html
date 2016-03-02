@@ -4,26 +4,13 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
 <!-- CSH Bootstrap Theme -->
-<link rel="stylesheet" href="css/members.css" type="text/css">
-<!-- Style -->
-<style>
-.right{
-	margin-left:15px;
-}
+<link rel="stylesheet" href="https://assets.csh.rit.edu/uploads/members-flat.min.css" type="text/css">
+<!-- Custom styles for this template -->
+<link href="css/qr-wiki.css" rel="stylesheet">
 
-.qr-input{
-	width:90%;
-	max-width:300px;
-}
-
-</style>
 </head>
 <body>
-<!-- Navbar -->
 <!-- Navbar -->
 <div class="navbar navbar-fixed-top navbar-default" role="navigation">
   <div class="container">
@@ -34,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="data/csh_logo_round.svg" alt="CSH" class="logo"/> <span>Members Portal</span></a>
+      <a class="navbar-brand" href="#"><img src="https://assets.csh.rit.edu/uploads/csh_logo_white.svg" alt="CSH" class="logo"/> <span>qr-wiki</span></a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
@@ -51,11 +38,13 @@
   <span class="input-group-addon" id="basic-addon3">wiki.csh.rit.edu/wiki/</span>
   <input type="text" class="form-control" id="addonInput" aria-describedby="basic-addon3">
 </div>
-<div class="btn-group" role="group" aria-label="...">
+<div class="btn-group qr-input" role="group" aria-label="..." align="center">
   <button type="button" class="btn btn-default" id="addonGo">Generate</button>
   <button type="button" class="btn btn-default" id="addonReset">Reset</button>
 </div>
 <br><br>
+<br><br>
+<br>
 <a href="#" id="qrcodeLink"><div align="center" id="qrcode"></div></a>
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
